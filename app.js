@@ -1,6 +1,11 @@
-/* Imports */
-
 /* Get DOM Elements */
+const backpackBtn = document.getElementById('backpackBtn');
+const trunkBtn = document.getElementById('trunkBtn');
+const doorBtn = document.getElementById('doorBtn');
+
+const backpackImg = document.getElementById('backpackImg');
+const trunkImg = document.getElementById('trunkImg');
+const doorImg = document.getElementById('doorImg');
 
 /* State */
 
