@@ -1,0 +1,10 @@
+.game {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.buttons {
+    color: rgb(191, 49, 234);
+    background-color: rgb(68, 5, 68);
+}
