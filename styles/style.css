@@ -13,8 +13,34 @@
     font-size: 4rem;
     display: flex;
     justify-content: center;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 140px;
+    z-index: 10;
 }
 
 .reveal {
     transform: translateY(-100px);
+}
+
+.hidingSpot {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidingSpot img {
+    z-index: 20;
+}
+
+p {
+    background-color: rgb(80, 3, 103);
+    color: aquamarine;
+    margin-bottom: 100px;
+}
+
+.stats {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
 }
